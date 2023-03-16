@@ -7,7 +7,6 @@ class WebFunctions:  # Newegg
         new_url = base + f"{page_num}.html"
         return new_url
 
-
 def url_changer(base, page_num):
     new_url = base + f"{page_num}.html"
     return new_url
